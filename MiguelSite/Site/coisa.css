@@ -1,0 +1,78 @@
+:root{
+    --pretinho: #2b2a2a;
+    --azulzinho: #EAECF4;
+    --secundaria: #B88F51;
+}
+
+body{
+    width: 100%;
+}
+
+h2{
+    font-size: 50px;
+    color: var(--azulzinho);
+    background-color: var(--pretinho);
+    margin: 3vw;
+    margin-left: -0.5vw;
+
+}
+
+.saiba-mais-button{
+    color: var(--azulzinho);
+    background-color: var(--secundaria);
+    margin-top: 1vh;
+    padding: 0.2vw;
+    border-radius: 10px;
+}
+
+.container-direito__img{
+    width: 60vw;
+}
+
+.container-direito__texto{
+    color: var(--azulzinho);
+    align-self: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.container-direito{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: var(--pretinho);
+}
+
+.container-esquerdo__texto{
+    color: var(--azulzinho);
+    align-self: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+
+}
+
+.container-esquerdo__img{
+    width: 45vw;
+    margin-top: 10vh;
+}
+
+.container-esquerdo{
+    display: flex;
+    align-items: center;
+    background-color: var(--pretinho);
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.container-esquerdo__lista-subtitulo{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.container-esquerdo__lista-item{
+    font-size: 30px;
+    padding-bottom: 2vh;
+}
+
