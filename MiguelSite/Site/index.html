@@ -17,60 +17,60 @@
 
 <body>
   <nav class="navbar">
-    <ul class="navbar-lista">
-      <li class="navbar-item">
+    <ul class="navbar__lista">
+      <li class="navbar__icone">
         <span class="fa-stack fa-2x">
           <i class="fa-solid fa-circle fa-stack-2x"></i>
           <i class="fa-solid fa-house fa-stack-1x fa-inverse"></i>
         </span>
 
       </li>
-      <li class="navbar-item">
+      <li class="navbar__icone">
         <span class="fa-stack fa-2x">
           <i class="fa-solid fa-circle fa-stack-2x"></i>
           <i class="fa-solid fa-user fa-stack-1x fa-inverse"></i>
         </span>
 
       </li>
-      <li class="navbar-item">
+      <li class="navbar__icone">
         <span class="fa-stack fa-2x">
           <i class="fa-solid fa-circle fa-stack-2x"></i>
           <i class="fa-solid fa-toolbox fa-stack-1x fa-inverse"></i>
         </span>
 
       </li>
-      <li class="navbar-item">
+      <li class="navbar__icone">
         <span class="fa-stack fa-2x">
           <i class="fa-solid fa-circle fa-stack-2x"></i>
           <i class="fa-solid fa-brain fa-stack-1x fa-inverse"></i>
         </span>
 
       </li>
-      <li class="navbar-item">
+      <li class="navbar__icone">
         <span class="fa-stack fa-2x">
           <i class="fa-solid fa-circle fa-stack-2x"></i>
           <i class="fa-solid fa-user-tie fa-stack-1x fa-inverse"></i>
         </span>
 
       </li>
-      <li class="navbar-item">
+      <li class="navbar__icone">
         <span class="fa-stack fa-2x">
           <i class="fa-solid fa-circle fa-stack-2x"></i>
           <i class="fa-solid fa-user-graduate fa-stack-1x fa-inverse"></i>
         </span>
 
       </li>
-      <li class="navbar-item">
+      <li class="navbar__icone">
         <span class="fa-stack fa-2x">
           <i class="fa-solid fa-circle fa-stack-2x"></i>
           <i class="fa-solid fa-envelope fa-stack-1x fa-inverse"></i>
         </span>
 
       </li>
-      <li class="navbar-menu">
+      <li class="navbar__icone">
         <span class="fa-stack fa-2x">
           <!-- <i class="fa-solid fa-circle fa-stack-2x"></i> -->
-          <i class="fa-solid fa-bars fa-stack-1x fa-inverse"></i>
+          <i class="fa-solid fa-bars fa-stack-2x fa-inverse"></i>
         </span>
 
       </li>
@@ -80,59 +80,65 @@
   </nav>
 
   <section class="inicio-secao">
-    <img class="inicio-secao__img" src="/MiguelSite/images/ragnar-capa.jpg" alt="oxi">
-    <div class="inicio-secao__informacao">
+    <div class="inicio-secao__container">
+      <img class="inicio-secao__img" src="/MiguelSite/images/ragnar-capa.jpg" alt="oxi">
 
-      <div class="inicio-secao__informacao-corpo">
-        <h3 class="ola">Olá!</h3>
-        <h1>EU SOU<i class="meu-nome"> MIGUEL LUIZ</i></h1>
+      <div class="inicio-secao__informacao informacao-tema--primario texto-cor--primaria">
+
+
+        <h3 class="subtitulo-tamanho--medio">Olá!</h3>
+        <h1>EU SOU<i class="bold"> MIGUEL LUIZ</i></h1>
         <main>
           I'm a Tunisian based web designer & front‑end developer
           focused on crafting clean & user‑friendly
           experiences, I am passionate about building excellent
           software that improves the lives of those around me.
         </main>
-        <button class=" inicio-secao__botao botao">MAIS</button>
-      </div>
+        <div>
+          <button class="inicio-secao__botao botao-tema--primario">MAIS</button>
+        </div>
 
+      </div>
     </div>
   </section>
 
   <!-- <div class="titulo"> -->
-  <h2 class="titulo">| SOBRE</h2>
   <!-- </div> -->
 
   <section class="sobre-secao">
+    <div class="sobre-secao__container">
+      <h2 class="titulo">| SOBRE</h2>
 
+      <div>
+        <div class="sobre-secao__informacoes texto-cor--primaria">
+          <div>
+            <ul>
+              <li class="subtitulo-tamanho--pequeno">Nome</li>
+              <li class="texto-tamanho--medio">Miguel Luiz</li>
 
-    <div>
-      <div class="sobre-secao__texto">
-        <div>
-          <ul>
-            <li class="sobre-secao__lista-subtitulo">Nome</li>
-            <li class="sobre-secao__lista-item">Miguel Luiz</li>
+              <li class="subtitulo-tamanho--pequeno">Idade</li>
+              <li class="texto-tamanho--medio">20 anos</li>
 
-            <li class="sobre-secao__lista-subtitulo">Idade</li>
-            <li class="sobre-secao__lista-item">20 anos</li>
+              <li class="subtitulo-tamanho--pequeno">Profissão</li>
+              <li class="texto-tamanho--medio">Estudante</li>
 
-            <li class="sobre-secao__lista-subtitulo">Profissão</li>
-            <li class="sobre-secao__lista-item">Estudante</li>
+              <li class="subtitulo-tamanho--pequeno">Naturalidade</li>
+              <li class="texto-tamanho--medio">Itajaí/SC</li>
 
-            <li class="sobre-secao__lista-subtitulo">Naturalidade</li>
-            <li class="sobre-secao__lista-item">Itajaí/SC</li>
+              <li class="subtitulo-tamanho--pequeno">Nacionalidade</li>
+              <li class="texto-tamanho--medio">Brasileiro</li>
 
-            <li class="sobre-secao__lista-subtitulo">Nacionalidade</li>
-            <li class="sobre-secao__lista-item">Brasileiro</li>
+              <li class="subtitulo-tamanho--pequeno">Github</li>
+              <li class="texto-tamanho--medio">www.github.com/miguelluizdape</li>
+            </ul>
 
-            <li class="sobre-secao__lista-subtitulo">Github</li>
-            <li class="sobre-secao__lista-item">www.github.com/miguelluizdape</li>
-          </ul>
+            <button class="sobre-secao__botao botao-tema--primario">CURRÍCULO</button>
+          </div>
 
-          <button class="botao">CURRÍCULO</button>
-        </div>
+          <div>
+            <img class="sobre-secao__img" src="/MiguelSite/images/ragnar-sobre.jpg" alt="oxi">
 
-        <div>
-          <img class="sobre-secao__img" src="/MiguelSite/images/ragnar-sobre.jpg" alt="oxi">
+          </div>
 
         </div>
 
@@ -140,451 +146,468 @@
 
     </div>
 
-
   </section>
 
   <!-- <div class="titulo"> -->
-  <h2 class="titulo">| PORTIFÓLIO</h2>
   <!-- </div> -->
   <section class="portifolio-secao">
-    <div>
-      <ul class="portifolio-secao__options">
-        <li class="portifolio-secao__options-item">
-          <span class="fa-stack fa-2x">
-            <!-- <i class="fa-solid fa-circle fa-stack-2x"></i> -->
-            <i class="fa-solid fa-code fa-stack-1x fa-inverse"></i>
-          </span>
+    <div class="portifolio-secao__container">
+      <h2 class="titulo">| PORTIFÓLIO</h2>
 
-        </li>
-        <li class="portifolio-secao__options-item">
-          <span class="fa-stack fa-2x">
-            <!-- <i class="fa-solid fa-circle fa-stack-2x"></i> -->
-            <i class="fa-solid fa-palette fa-stack-1x fa-inverse"></i>
-          </span>
+      <div>
+        <ul class="portifolio-secao__options">
+          <li class="options__icone">
+            <span class="fa-stack fa-2x">
+              <i class="fa-solid fa-code fa-stack-1x fa-inverse"></i>
+            </span>
 
-        </li>
-        <li class="portifolio-secao__options-item">
-          <span class="fa-stack fa-2x">
-            <!-- <i class="fa-solid fa-circle fa-stack-2x"></i> -->
-            <i class="fa-solid fa-camera fa-stack-1x fa-inverse"></i>
-          </span>
-        </li>
-      </ul>
+          </li>
+
+          <li class="options__icone">
+            <span class="fa-stack fa-2x">
+              <i class="fa-solid fa-palette fa-stack-1x fa-inverse"></i>
+            </span>
+
+          </li>
+
+          <li class="options__icone">
+            <span class="fa-stack fa-2x">
+              <i class="fa-solid fa-camera fa-stack-1x fa-inverse"></i>
+            </span>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="portifolio-secao__imgs">
+        <img src="/MiguelSite/images/portfolio-website-1.jpg" alt="oxi">
+        <img src="/MiguelSite/images/portfolio-website-2.jpg" alt="">
+        <img src="/MiguelSite/images/portfolio-website-3.jpg" alt="">
+        <img src="/MiguelSite/images/portfolio-website-4.jpg" alt="">
+        <img src="/MiguelSite/images/portfolio-website-6.jpg" alt="">
+        <img src="/MiguelSite/images/portfolio-website-7.jpg" alt="">
+      </div>
+
     </div>
 
-    <div class="portifolio-secao__imgs">
-      <img src="/MiguelSite/images/portfolio-website-1.jpg" alt="oxi">
-      <img src="/MiguelSite/images/portfolio-website-2.jpg" alt="">
-      <img src="/MiguelSite/images/portfolio-website-3.jpg" alt="">
-      <img src="/MiguelSite/images/portfolio-website-4.jpg" alt="">
-      <img src="/MiguelSite/images/portfolio-website-6.jpg" alt="">
-      <img src="/MiguelSite/images/portfolio-website-7.jpg" alt="">
-    </div>
   </section>
-  <button class="botao portifolio-secao__botao">Mais</button>
+  <button class="portifolio-secao__botao botao-tema--primario">Mais</button>
 
-  <!-- <div class="titulo"> -->
-  <h2 class="titulo">| SKILLS</h2>
-  <!-- </div> -->
+
   <section class="skill-secao">
+    <div class="skill-secao__container">
+      <h2 class="titulo">| SKILLS</h2>
+      <div class="skill-secao__skills texto-cor--primaria">
 
-    <div class="skill-secao__item">
-      <h3>VS Code</h3>
-      <img src="/MiguelSite/images/vscode.png" alt="putz">
+        <div class="skill-secao__item item-tamanho--medio">
+          <h3>VS Code</h3>
+          <img src="/MiguelSite/images/vscode.png" alt="putz">
 
-      <div class="skill-secao__item-stars">
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
+          <div class="skill-secao__item-stars">
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
 
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
 
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
 
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
 
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star-half fa-stack-1x fa-inverse"></i>
-        </span>
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star-half fa-stack-1x fa-inverse"></i>
+            </span>
 
+          </div>
+
+        </div>
+
+        <div class="skill-secao__item item-tamanho--medio">
+          <h3>.NET Core</h3>
+          <img src="/MiguelSite/images/netcore.png" alt="putz">
+
+          <div class="skill-secao__item-stars">
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+          </div>
+
+        </div>
+
+        <div class="skill-secao__item item-tamanho--medio">
+          <h3>PostgreSQL</h3>
+          <img src="/MiguelSite/images/postgresql.png" alt="putz">
+
+          <div class="skill-secao__item-stars">
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+          </div>
+
+        </div>
+
+        <div class="skill-secao__item item-tamanho--medio">
+          <h3>C#</h3>
+          <img src="/MiguelSite/images/csharp.png" alt="putz">
+
+          <div class="skill-secao__item-stars">
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star-half fa-stack-1x fa-inverse"></i>
+            </span>
+
+          </div>
+
+        </div>
+
+        <div class="skill-secao__item item-tamanho--medio">
+          <h3>GIT</h3>
+          <img src="/MiguelSite/images/git.png" alt="putz">
+
+          <div class="skill-secao__item-stars">
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+          </div>
+
+        </div>
+
+        <div class="skill-secao__item item-tamanho--medio">
+          <h3>JavaScript</h3>
+          <img src="/MiguelSite/images/javascript.png" alt="putz">
+
+          <div class="skill-secao__item-stars">
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+          </div>
+
+        </div>
+
+        <div class="skill-secao__item item-tamanho--medio">
+          <h3>Ubuntu</h3>
+          <img src="/MiguelSite/images/ubuntu.png" alt="putz">
+
+          <div class="skill-secao__item-stars">
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+          </div>
+
+        </div>
+
+        <div class="skill-secao__item item-tamanho--medio">
+          <h3>HTML</h3>
+          <img src="/MiguelSite/images/html.png" alt="putz">
+
+          <div class="skill-secao__item-stars">
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star-half fa-stack-1x fa-inverse"></i>
+            </span>
+
+          </div>
+
+        </div>
+
+        <div class="skill-secao__item item-tamanho--medio">
+          <h3>Nginx</h3>
+          <img src="/MiguelSite/images/nginx.png" alt="putz">
+
+          <div class="skill-secao__item-stars">
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star-half fa-stack-1x fa-inverse"></i>
+            </span>
+
+          </div>
+
+        </div>
+
+        <div class="skill-secao__item item-tamanho--medio">
+          <h3>CSS</h3>
+          <img src="/MiguelSite/images/css.png" alt="putz">
+
+          <div class="skill-secao__item-stars">
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+          </div>
+
+        </div>
+
+        <div class="skill-secao__item item-tamanho--medio">
+          <h3>Figma</h3>
+          <img src="/MiguelSite/images/figma.png" alt="putz">
+
+          <div class="skill-secao__item-stars">
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+          </div>
+
+        </div>
+
+        <div class="skill-secao__item item-tamanho--medio">
+          <h3>Webpack</h3>
+          <img src="/MiguelSite/images/webpack.png" alt="putz">
+
+          <div class="skill-secao__item-stars">
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+          </div>
+
+        </div>
+
+        <div class="skill-secao__item item-tamanho--medio">
+          <h3>AWS</h3>
+          <img src="/MiguelSite/images/aws.png" alt="putz">
+
+          <div class="skill-secao__item-stars">
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+          </div>
+
+        </div>
+
+        <div class="skill-secao__item item-tamanho--medio">
+          <h3>React</h3>
+          <img src="/MiguelSite/images/react.png" alt="putz">
+
+          <div class="skill-secao__item-stars">
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+          </div>
+
+        </div>
+
+        <div class="skill-secao__item item-tamanho--medio">
+          <h3>TypeScript</h3>
+          <img src="/MiguelSite/images/ts.png" alt="putz">
+
+          <div class="skill-secao__item-stars">
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+            </span>
+
+          </div>
+
+        </div>
+
+        <div class="skill-secao__item item-tamanho--medio">
+          <h3>Photoshop</h3>
+          <img src="/MiguelSite/images/photoshop.png" alt="putz">
+
+          <div class="skill-secao__item-stars">
+            <span class="fa-stack fa-1x star">
+              <i class="fa-solid fa-star-half fa-stack-1x fa-inverse"></i>
+            </span>
+
+          </div>
+
+        </div>
       </div>
-
-    </div>
-
-    <div class="skill-secao__item">
-      <h3>.NET Core</h3>
-      <img src="/MiguelSite/images/netcore.png" alt="putz">
-
-      <div class="skill-secao__item-stars">
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-      </div>
-
-    </div>
-
-    <div class="skill-secao__item">
-      <h3>PostgreSQL</h3>
-      <img src="/MiguelSite/images/postgresql.png" alt="putz">
-
-      <div class="skill-secao__item-stars">
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-      </div>
-
-    </div>
-
-    <div class="skill-secao__item">
-      <h3>C#</h3>
-      <img src="/MiguelSite/images/csharp.png" alt="putz">
-
-      <div class="skill-secao__item-stars">
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star-half fa-stack-1x fa-inverse"></i>
-        </span>
-
-      </div>
-
-    </div>
-
-    <div class="skill-secao__item">
-      <h3>GIT</h3>
-      <img src="/MiguelSite/images/git.png" alt="putz">
-
-      <div class="skill-secao__item-stars">
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-      </div>
-
-    </div>
-
-    <div class="skill-secao__item">
-      <h3>JavaScript</h3>
-      <img src="/MiguelSite/images/javascript.png" alt="putz">
-
-      <div class="skill-secao__item-stars">
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-      </div>
-
-    </div>
-
-    <div class="skill-secao__item">
-      <h3>Ubunto</h3>
-      <img src="/MiguelSite/images/ubuntu.png" alt="putz">
-
-      <div class="skill-secao__item-stars">
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-      </div>
-
-    </div>
-
-    <div class="skill-secao__item">
-      <h3>HTML</h3>
-      <img src="/MiguelSite/images/html.png" alt="putz">
-
-      <div class="skill-secao__item-stars">
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star-half fa-stack-1x fa-inverse"></i>
-        </span>
-
-      </div>
-
-    </div>
-
-    <div class="skill-secao__item">
-      <h3>Nginx</h3>
-      <img src="/MiguelSite/images/nginx.png" alt="putz">
-
-      <div class="skill-secao__item-stars">
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star-half fa-stack-1x fa-inverse"></i>
-        </span>
-
-      </div>
-
-    </div>
-
-    <div class="skill-secao__item">
-      <h3>CSS</h3>
-      <img src="/MiguelSite/images/css.png" alt="putz">
-
-      <div class="skill-secao__item-stars">
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-      </div>
-
-    </div>
-
-    <div class="skill-secao__item">
-      <h3>Figma</h3>
-      <img src="/MiguelSite/images/figma.png" alt="putz">
-
-      <div class="skill-secao__item-stars">
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-      </div>
-
-    </div>
-
-    <div class="skill-secao__item">
-      <h3>Webpack</h3>
-      <img src="/MiguelSite/images/webpack.png" alt="putz">
-
-      <div class="skill-secao__item-stars">
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-      </div>
-
-    </div>
-
-    <div class="skill-secao__item">
-      <h3>AWS</h3>
-      <img src="/MiguelSite/images/aws.png" alt="putz">
-
-      <div class="skill-secao__item-stars">
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-      </div>
-
-    </div>
-
-    <div class="skill-secao__item">
-      <h3>React</h3>
-      <img src="/MiguelSite/images/react.png" alt="putz">
-
-      <div class="skill-secao__item-stars">
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-      </div>
-
-    </div>
-
-    <div class="skill-secao__item">
-      <h3>TypeScript</h3>
-      <img src="/MiguelSite/images/ts.png" alt="putz">
-
-      <div class="skill-secao__item-stars">
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-        </span>
-
-      </div>
-
-    </div>
-
-    <div class="skill-secao__item">
-      <h3>Photoshop</h3>
-      <img src="/MiguelSite/images/photoshop.png" alt="putz">
-
-      <div class="skill-secao__item-stars">
-        <span class="fa-stack fa-1x star">
-          <i class="fa-solid fa-star-half fa-stack-1x fa-inverse"></i>
-        </span>
-
-      </div>
-
     </div>
 
   </section>
 
-  <h2 class="titulo">| CONTATO</h2>
+
   <section class="contato-secao">
-    
-    <div class="contato-secao__contatos">
-      <div>
-        <span class="fa-stack fa-2x">
-          <i class="fa-solid fa-square fa-stack-2x"></i>
-          <i class="fa-regular fa-envelope fa-stack-1x fa-inverse"></i>
-        </span>
+    <div class="contato-secao__container">
+      <h2 class="titulo">| CONTATO</h2>
 
-        <div>
-          <span>EMAIL</span>
-          <span>miguel.luiz.work@gmail.com</span>
+      <div class="container__">
+        <div class="contato-secao__informacoes">
+          <div class="contato__item">
+            <span class="fa-stack fa-2x item__icone">
+              <i class="fa-solid fa-square fa-stack-2x"></i>
+              <i class="fa-regular fa-envelope fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <div class="item__social texto-cor--primaria">
+              <span>EMAIL</span>
+              <span class="bold">miguel.luiz.work@gmail.com</span>
+            </div>
+
+          </div>
+
+          <div class="contato__item">
+            <span class="fa-stack fa-2x item__icone">
+              <i class="fa-solid fa-square fa-stack-2x"></i>
+              <i class="fa-solid fa-phone fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <div class="item__social texto-cor--primaria">
+              <span>TELEFONE</span>
+              <span class="bold">(47) 9 1234 1543</span>
+            </div>
+
+          </div>
+
+          <div class="contato__item">
+            <span class="fa-stack fa-2x item__icone">
+              <i class="fa-solid fa-square fa-stack-2x"></i>
+              <i class="fa-solid fa-phone fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <div class="item__social texto-cor--primaria">
+              <span>TELEFONE</span>
+              <span class="bold">(47) 9 1234 1543</span>
+            </div>
+
+          </div>
+
+          <div class="contato__item">
+            <span class="fa-stack fa-2x item__icone">
+              <i class="fa-solid fa-square fa-stack-2x"></i>
+              <i class="fa-solid fa-phone fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <div class="item__social texto-cor--primaria">
+              <span>TELEFONE</span>
+              <span class="bold">(47) 9 1234 1543</span>
+            </div>
+
+          </div>
+
+          <div class="contato__item">
+            <span class="fa-stack fa-2x item__icone">
+              <i class="fa-solid fa-square fa-stack-2x"></i>
+              <i class="fa-solid fa-phone fa-stack-1x fa-inverse"></i>
+            </span>
+
+            <div class="item__social texto-cor--primaria">
+              <span>TELEFONE</span>
+              <span class="bold">(47) 9 1234 1543</span>
+            </div>
+
+          </div>
+
+
         </div>
 
-      </div>
+        <form class="contato-secao__formulario" action="https://formsubmit.co/miguel.luiz.work@gmail.com" method="POST">
+          <input type="text" name="name" required placeholder="NOME">
+          <input type="email" name="email" required placeholder="EMAIL">
+          <input type="tel" id="phone" name="phone" placeholder="TELEFONE" required />
+          <input name="_subject" placeholder="ASSUNTO">
+          <textarea name="message" placeholder="MENSAGEM"></textarea>
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/MiguelSite/Site/obrigado.html">
+          <div class="contato-secao__botao">
+            <button class="botao botao-tema--primario" type="submit">Enviar</button>
+          </div>
 
-      <div>
-        <span class="fa-stack fa-2x">
-          <i class="fa-solid fa-square fa-stack-2x"></i>
-          <i class="fa-solid fa-phone fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <div>
-          <span>TELEFONE</span>
-          <span>(47) 9 1234 1543</span>
-        </div>
-
-      </div>
-
-      <div>
-        <span class="fa-stack fa-2x">
-          <i class="fa-solid fa-square fa-stack-2x"></i>
-          <i class="fa-brands fa-whatsapp fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <div>
-          <span>WHATSAPP</span>
-          <span>(47) 9 1234 1543</span>
-        </div>
-
-      </div>
-
-      <div>
-        <span class="fa-stack fa-2x">
-          <i class="fa-solid fa-square fa-stack-2x"></i>
-          <i class="fa-brands fa-telegram fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <div>
-          <span>TELEGRAM</span>
-          <span>(47) 9 1234 1543</span>
-        </div>
-
-      </div>
-
-      <div>
-        <span class="fa-stack fa-2x">
-          <i class="fa-solid fa-square fa-stack-2x"></i>
-          <i class="fa-brands fa-skype fa-stack-1x fa-inverse"></i>
-        </span>
-
-        <div>
-          <span>SKYPE</span>
-          <span>meuskype</span>
-        </div>
+        </form>
 
       </div>
 
     </div>
-
-    <form class="contato-secao__formulario" action="https://formsubmit.co/miguel.luiz.work@gmail.com" method="POST">
-      <input type="text" name="name" required placeholder="NOME">
-      <input type="email" name="email" required placeholder="EMAIL">
-      <input type="tel" id="phone" name="phone" placeholder="TELEFONE" required />
-      <input name="_subject" placeholder="ASSUNTO">
-      <textarea name="message" placeholder="MENSAGEM"></textarea>
-      <input type="hidden" name="_next" value="http://127.0.0.1:5500/MiguelSite/Site/obrigado.html">
-      <div class="contato-secao__botao">
-        <button class="botao" type="submit">Enviar</button>
-      </div>
-
-    </form>
 
   </section>
 
