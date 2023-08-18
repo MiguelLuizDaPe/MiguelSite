@@ -1,5 +1,6 @@
 :root{
     --pretinho: #111111;
+    --cinzinha: #2d2d2d;
     --azulzinho: #EAECF4;
     --secundaria: #F5B63F;
 }
@@ -144,6 +145,7 @@ h1{
     margin-left: 5vw;
     margin-top: 1vw;
     grid-gap: 2vw;
+    /* grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); */
 }
 .portifolio-secao__imgs img{
     width: 100%;
@@ -184,7 +186,7 @@ h1{
 }
 
 .skill-secao__item img{
-    width: 80%;
+    width: clamp(4rem, 8vw, 7rem);
     margin-top: 0.5vw;
 }
 
@@ -196,4 +198,30 @@ h1{
 .star{
     margin-left: -10px;
     margin-right: -10px;
+}
+
+
+.formulario{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr) 5fr;
+    margin: 5vw;
+    gap: 1rem;
+
+}
+
+.formulario input,
+.formulario textarea{
+    /* display: block; */
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: var(--cinzinha);
+    color: var(--azulzinho);
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: var(--azulzinho);
+    font-family: 'Roboto', sans-serif;
+}
+
+.formulario ::placeholder{
+    color: var(--azulzinho);
 }
