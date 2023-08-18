@@ -12,13 +12,15 @@ body{
 }
 
 h1{
-    font-size: clamp(2rem, 3vw, 4rem) ;
+    font-size: clamp(2rem, 3vw, 4rem);
+    margin-top: 0.3vw;
+    margin-bottom: 0.3vw;
 }
 
 .titulo{
     font-size: 3.5vmax;
     color: var(--secundaria);
-    background-color: var(--pretinho);
+    /* background-color: var(--pretinho); */
     margin-bottom: 3vw;
     font-weight: bold;
     margin-top: 10vw;
@@ -37,13 +39,14 @@ h1{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 96%;
+    width: 100%;
     margin-right: 5vw;
-
 }
 
 .navbar-item{
-    font-size: 1.4vmin;
+    /* font-size: 1.4vmin; */
+    font-size: clamp(0.6rem, 0.8vw, 2rem);
+
 }
 
 .ola{
@@ -52,6 +55,7 @@ h1{
 
 .meu-nome{
     font-weight: bold;
+    
 }
 
 .botao{
@@ -62,16 +66,20 @@ h1{
     padding-top: 0.5vw;
     padding-bottom: 0.5vw;
     border-radius: 10px;
+    /* border-radius: clamp(1.4rem, 0.1vw, 0.3rem); */
     font-size: clamp(1.4rem, 2vw, 3rem);
     border: 0;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
 }
 
 .inicio-secao{
     display: flex;
     align-items: center;
     /* flex-wrap: wrap; */   
+}
+
+.inicio-secao__botao{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }
 
 .inicio-secao__img{
@@ -85,11 +93,12 @@ h1{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding: 6vw;
+    margin-right: 5vw;
+    margin-left: 6vw;
 
 }
 
-.inicio-secao__informacao-texto{
+.inicio-secao__informacao-corpo{
     align-self: center;
     /* padding: 10vw; */
 }
