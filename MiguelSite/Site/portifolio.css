@@ -13,7 +13,7 @@
 }
 
 .portifolio-secao__texto-escondido {
-   margin-left: 5vw;
+   margin-left: clamp(4rem, 4vw, 12rem);
 }
 
 .portifolio-secao__options {
@@ -23,13 +23,13 @@
 
 .portifolio-secao__options li:hover {
    color: var(--secundaria);
-   margin-right: 7vw;
+   margin-right: clamp(5rem, 5vw, 7rem);
    transition: 1s;
 }
 
 .portifolio-secao__options li:hover .item-escondido {
    color: var(--secundaria);
-   padding-right: 11vw;
+   padding-right: clamp(10rem, 10vw, 12rem);
    background-color: #F5B63F;
    transition: 1s;
    display: flex;
@@ -58,5 +58,6 @@
 @media (max-width: 700px) and (orientation: portrait) { 
    .portifolio-secao__imgs{
       grid-template-columns: 1fr;
+      row-gap: 3vw;
    }
 }

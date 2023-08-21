@@ -26,7 +26,7 @@
 
 .navbar__lista li:hover .item-escondido {
     color: var(--secundaria);
-    padding-right: 10vw;
+    padding-right: clamp(9rem, 10vw, 12rem);
     background-color: #F5B63F;
     transition: 1s;
     display: flex;
