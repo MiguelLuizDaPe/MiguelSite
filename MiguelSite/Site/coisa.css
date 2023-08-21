@@ -27,7 +27,7 @@ h1 {
 }
 
 .titulo {
- font-size: 3.5vmax;
+ font-size: clamp(3rem, 3vw, 4rem);
  color: var(--secundaria);
  margin-bottom: 3vw;
  font-weight: bold;
