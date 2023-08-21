@@ -137,6 +137,8 @@ h1 {
 .star {
  margin-left: -10px;
  margin-right: -10px;
+ color: var(--secundaria);
+ /* background-color: #F5B63F; */
 }
 
 .item__icone-data{

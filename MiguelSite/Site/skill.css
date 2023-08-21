@@ -21,9 +21,14 @@
     align-items: center;
 }
 
-.skill-secao__item img:hover {
+.skill-secao__item:hover img{
     filter: grayscale(0%);
-    transition: 1s;
+    transition: 0.5s;
+}
+
+.skill-secao__item:hover i{
+    color: var(--secundaria);
+    transition: 0.5s;
 }
 
 .skill-secao__item img {
