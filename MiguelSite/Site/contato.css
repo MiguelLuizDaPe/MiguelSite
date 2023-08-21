@@ -1,0 +1,60 @@
+.contato-secao {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 6vw;
+}
+
+.contato-secao__container {
+    width: 80%;
+}
+
+.contato-secao__container-secundario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2vw;
+    flex-wrap: wrap;
+}
+
+.contato-secao__formulario {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr) 5fr;
+    gap: 1rem;
+    width: 50%;
+}
+
+.contato-secao__formulario input,
+.contato-secao__formulario textarea {
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: var(--cinzinha);
+    color: var(--azulzinho);
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: var(--azulzinho);
+    font-family: 'Roboto', sans-serif;
+}
+
+.contato-secao__botao {
+    display: flex;
+    align-items: flex-end;
+}
+
+.contato-secao__informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contato__item {
+    display: flex;
+    margin-top: 0.5vw;
+}
+
+@media (max-width: 700px) and (orientation: portrait) {
+    .contato-secao__formulario{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,49 @@
+.experiencia-secao {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.experiencia-secao__container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: space-between;
+}
+
+.experiencia-secao__trabalho {
+    margin-bottom: 2vw;
+}
+
+.experiencia-secao__feito {
+    display: flex;
+    justify-content: center;
+    height: 18vh;
+    align-items: center;
+    border-style: solid;
+    text-transform: uppercase;
+    border-width: 0.15rem;
+    border-color: var(--azulzinho);
+}
+
+.experiencia-secao__feitos {
+    display: grid;
+    justify-items: stretch;
+    align-content: center;
+
+    grid-gap: 3vw;
+    grid-template-columns: 1fr 1fr;
+}
+
+.experiencia-secao__container-secundário {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15vw;
+}
+
+@media (max-width: 700px) and (orientation: portrait) {
+    .experiencia-secao__container-secundário{
+        grid-template-columns: 1fr;
+        row-gap: 5vw;
+    }
+}

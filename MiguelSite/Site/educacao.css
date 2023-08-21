@@ -1,0 +1,36 @@
+.educacao-secao {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.educacao-secao__container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.educacao-secao__container-secundario {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 4vw;
+}
+
+.educacao-secao__subtitulo {
+    padding-top: 0.9vw;
+    padding-bottom: 0.9vw;
+    margin-bottom: 4vw;
+}
+
+.educacao-secao__botao-container {
+    display: flex;
+    justify-content: end;
+
+}
+
+@media (max-width: 700px) and (orientation: portrait) {
+    .educacao-secao__container-secundario{
+        grid-template-columns: 1fr;
+        row-gap: 5vw;
+    }
+}

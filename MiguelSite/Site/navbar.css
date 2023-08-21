@@ -1,0 +1,45 @@
+.navbar {
+    margin-top: 1.5vw;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar__lista {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+}
+
+.navbar__botao {
+    display: flex;
+    align-content: center;
+    font-size: clamp(0.8rem, 0.8vw, 2rem);
+}
+
+.navbar__texto {
+    margin-left: 4vw;
+}
+
+.navbar__lista li:hover .item-escondido {
+    color: var(--secundaria);
+    padding-right: 10vw;
+    background-color: #F5B63F;
+    transition: 1s;
+    display: flex;
+    border-radius: 10px;
+}
+
+.navbar__lista li:hover .fa-circle {
+    display: none;
+}
+
+.navbar__lista li:hover {
+    color: var(--secundaria);
+    margin-right: 6vw;
+    transition: 1s;
+    display: flex;
+}

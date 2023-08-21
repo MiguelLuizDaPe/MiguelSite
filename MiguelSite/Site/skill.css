@@ -1,0 +1,32 @@
+.skill-secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.skill-secao__container {
+    width: 80%;
+}
+
+.skill-secao__skills {
+    display: grid;
+    grid-gap: 4vw;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.skill-secao__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-secao__item img:hover {
+    filter: grayscale(0%);
+    transition: 1s;
+}
+
+.skill-secao__item img {
+    width: clamp(4rem, 8vw, 7rem);
+    margin-top: 0.5vw;
+}

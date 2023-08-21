@@ -5,11 +5,19 @@
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Document</title>
+ <title>Portifólio</title>
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="reset.css">
+ <link rel="stylesheet" href="navbar.css">
+ <link rel="stylesheet" href="apresentacao.css">
+ <link rel="stylesheet" href="sobre.css">
+ <link rel="stylesheet" href="portifolio.css">
+ <link rel="stylesheet" href="skill.css">
+ <link rel="stylesheet" href="experiencia.css">
+ <link rel="stylesheet" href="educacao.css">
+ <link rel="stylesheet" href="contato.css">
  <link rel="stylesheet" href="coisa.css">
  <script src="https://kit.fontawesome.com/4fc9e75350.js" crossorigin="anonymous"></script>
 
@@ -18,76 +26,122 @@
 <body>
  <nav class="navbar">
   <ul class="navbar__lista">
-   <li class="navbar__icone">
+   <li class="navbar__botao">
     <span class="fa-stack fa-2x">
-     <i class="fa-solid fa-circle fa-stack-2x"></i>
-     <i class="fa-solid fa-house fa-stack-1x fa-inverse"></i>
+     <a href="#apresentacao">
+      <i class="fa-solid fa-circle fa-stack-2x"></i>
+
+      <i class="fa-solid fa-house fa-stack-1x fa-inverse"></i>
+      <div class="item-escondido background-cor--secundaria">
+       <i class=" navbar__texto texto-cor--primaria">HOME </i>
+      </div>
+     </a>
     </span>
 
    </li>
-   <li class="navbar__icone">
+   <li class="navbar__botao">
     <span class="fa-stack fa-2x">
      <i class="fa-solid fa-circle fa-stack-2x"></i>
-     <i class="fa-solid fa-user fa-stack-1x fa-inverse"></i>
+
+     <a href="#sobre">
+      <i class="fa-solid fa-user fa-stack-1x fa-inverse"></i>
+      <div class="item-escondido">
+       <i class=" navbar__texto texto-cor--primaria">ABOUT </i>
+      </div>
+     </a>
     </span>
 
    </li>
-   <li class="navbar__icone">
+   <li class="navbar__botao">
     <span class="fa-stack fa-2x">
      <i class="fa-solid fa-circle fa-stack-2x"></i>
-     <i class="fa-solid fa-toolbox fa-stack-1x fa-inverse"></i>
+
+     <a href="#portifolio">
+      <i class="fa-solid fa-toolbox fa-stack-1x fa-inverse"></i>
+      <div class="item-escondido">
+       <i class=" navbar__texto texto-cor--primaria">PORTF </i>
+      </div>
+     </a>
     </span>
 
    </li>
-   <li class="navbar__icone">
+   <li class="navbar__botao">
     <span class="fa-stack fa-2x">
      <i class="fa-solid fa-circle fa-stack-2x"></i>
-     <i class="fa-solid fa-brain fa-stack-1x fa-inverse"></i>
+
+     <a href="#skills">
+      <i class="fa-solid fa-brain fa-stack-1x fa-inverse"></i>
+      <div class="item-escondido">
+       <i class=" navbar__texto texto-cor--primaria">SKILLS </i>
+      </div>
+     </a>
     </span>
 
    </li>
-   <li class="navbar__icone">
+   <li class="navbar__botao">
     <span class="fa-stack fa-2x">
      <i class="fa-solid fa-circle fa-stack-2x"></i>
-     <i class="fa-solid fa-user-tie fa-stack-1x fa-inverse"></i>
+
+     <a href="#experiencia">
+      <i class="fa-solid fa-user-tie fa-stack-1x fa-inverse"></i>
+      <div class="item-escondido">
+       <i class=" navbar__texto texto-cor--primaria">EXP </i>
+      </div>
+     </a>
     </span>
 
    </li>
-   <li class="navbar__icone">
+   <li class="navbar__botao">
     <span class="fa-stack fa-2x">
      <i class="fa-solid fa-circle fa-stack-2x"></i>
-     <i class="fa-solid fa-user-graduate fa-stack-1x fa-inverse"></i>
+
+     <a href="#educacao">
+      <i class="fa-solid fa-user-graduate fa-stack-1x fa-inverse"></i>
+      <div class="item-escondido">
+       <i class=" navbar__texto texto-cor--primaria">EDU </i>
+      </div>
+     </a>
     </span>
 
    </li>
-   <li class="navbar__icone">
+   <li class="navbar__botao">
     <span class="fa-stack fa-2x">
      <i class="fa-solid fa-circle fa-stack-2x"></i>
-     <i class="fa-solid fa-envelope fa-stack-1x fa-inverse"></i>
+
+     <a href="#contato">
+      <i class="fa-solid fa-envelope fa-stack-1x fa-inverse"></i>
+      <div class="item-escondido">
+       <i class=" navbar__texto texto-cor--primaria">CONT </i>
+      </div>
+     </a>
     </span>
 
    </li>
-   <li class="navbar__icone">
+   <div class="navbar__botao">
     <span class="fa-stack fa-2x">
      <!-- <i class="fa-solid fa-circle fa-stack-2x"></i> -->
      <i class="fa-solid fa-bars fa-stack-2x fa-inverse"></i>
     </span>
 
-   </li>
+   </div>
 
   </ul>
 
  </nav>
 
- <section class="inicio-secao">
-  <div class="inicio-secao__container">
-   
-   <img class="inicio-secao__img" src="/MiguelSite/images/ragnar-capa.jpg" alt="oxi">
+ <section class="apresentacao-secao">
+  <div id="apresentacao" class="apresentacao-secao__container">
+   <div>
+    <img class="apresentacao-secao__img" src="/MiguelSite/images/ragnar-capa.jpg" alt="ragnar de pé">
+   </div>
 
-   <div class="inicio-secao__informacao texto-cor--primaria">
+   <!-- <img class="apresentacao-secao__img" src="/MiguelSite/images/ragnar-capa.jpg" alt="oxi"> -->
 
 
-    <h3 class="subtitulo-tamanho--medio">Olá!</h3>
+   <div class="apresentacao-secao__informacao texto-cor--primaria">
+
+
+    <i class="subtitulo-tamanho--medio">OLÁ!</i>
     <h1>EU SOU<i class="bold"> MIGUEL LUIZ</i></h1>
     <main class="subtitulo-tamanho--pequeno">
      I'm a Tunisian based web designer & front‑end developer
@@ -95,12 +149,20 @@
      experiences, I am passionate about building excellent
      software that improves the lives of those around me.
     </main>
+
     <div>
-     <button class="inicio-secao__botao botao-tema--primario">MAIS</button>
+     <a href="#sobre">
+      <button class="apresentacao-secao__botao botao-tema--primario">
+       MAIS
+      </button>
+     </a>
+
     </div>
 
    </div>
+
   </div>
+
  </section>
 
  <!-- <div class="titulo"> -->
@@ -108,36 +170,39 @@
 
  <section class="sobre-secao">
   <div class="sobre-secao__container">
-   <h2 class="titulo">| SOBRE</h2>
+   <h2 id="sobre" class="titulo">| SOBRE</h2>
 
    <!-- <div> -->
    <div class="sobre-secao__informacoes texto-cor--primaria">
     <div>
      <ul>
-      <li class="subtitulo-tamanho--pequeno">Nome</li>
-      <li class="informacoes__texto texto-tamanho--medio">Miguel Luiz</li>
+      <li class="subtitulo-tamanho--pequeno">NOME</li>
+      <li class="margin-lista texto-tamanho--medio">MIGUEL LUIZ</li>
 
-      <li class="subtitulo-tamanho--pequeno">Idade</li>
-      <li class="informacoes__texto texto-tamanho--medio">20 anos</li>
+      <li class="subtitulo-tamanho--pequeno">IDADE</li>
+      <li class="margin-lista texto-tamanho--medio">20 ANOS</li>
 
-      <li class="subtitulo-tamanho--pequeno">Profissão</li>
-      <li class="informacoes__texto texto-tamanho--medio">Estudante</li>
+      <li class="subtitulo-tamanho--pequeno">PROFISSÃO</li>
+      <li class="margin-lista texto-tamanho--medio">ESTUDANTE</li>
 
-      <li class="subtitulo-tamanho--pequeno">Naturalidade</li>
-      <li class="informacoes__texto texto-tamanho--medio">Itajaí/SC</li>
+      <li class="subtitulo-tamanho--pequeno">NATURALIDADE</li>
+      <li class="margin-lista texto-tamanho--medio">ITAJAÍ/SC</li>
 
-      <li class="subtitulo-tamanho--pequeno">Nacionalidade</li>
-      <li class="informacoes__texto texto-tamanho--medio">Brasileiro</li>
+      <li class="subtitulo-tamanho--pequeno">NACIONALIDADE</li>
+      <li class="margin-lista texto-tamanho--medio">BRASILEIRO</li>
 
-      <li class="subtitulo-tamanho--pequeno">Github</li>
-      <li class="informacoes__texto texto-tamanho--medio">www.github.com/miguelluizdape</li>
+      <li class="subtitulo-tamanho--pequeno">GITHUB</li>
+      <li class="margin-lista texto-tamanho--medio">www.github.com/miguelluizdape</li>
      </ul>
 
-     <button class="sobre-secao__botao botao-tema--primario">CURRÍCULO</button>
+     <a href="https://miguelluizdape.github.io/MeuSite/" target="_blank">
+      <button class="sobre-secao__botao botao-tema--primario">CURRÍCULO</button>
+     </a>
+
     </div>
 
     <div>
-     <img class="sobre-secao__img" src="/MiguelSite/images/ragnar-sobre.jpg" alt="oxi">
+     <img class="sobre-secao__img" src="/MiguelSite/images/ragnar-sobre.jpg" alt="ragnar sentado">
 
     </div>
 
@@ -153,27 +218,42 @@
  <!-- </div> -->
  <section class="portifolio-secao">
   <div class="portifolio-secao__container">
-   <h2 class="titulo">| PORTIFÓLIO</h2>
+   <h2 id="portifolio" class="titulo">| PORTIFÓLIO</h2>
 
    <div>
     <ul class="portifolio-secao__options">
-     <li class="options__icone">
+     <li class="icone-tamanho--medio cor--background">
       <span class="fa-stack fa-2x">
+       <i class="fa-solid fa-circle fa-stack-2x"></i>
        <i class="fa-solid fa-code fa-stack-1x fa-inverse"></i>
+
+       <div class="item-escondido">
+        <i class="portifolio-secao__texto-escondido texto-cor--primaria">CODE</i>
+       </div>
       </span>
 
      </li>
 
-     <li class="options__icone">
+     <li class="icone-tamanho--medio cor--background">
       <span class="fa-stack fa-2x">
+       <i class="fa-solid fa-circle fa-stack-2x"></i>
        <i class="fa-solid fa-palette fa-stack-1x fa-inverse"></i>
+
+       <div class="item-escondido">
+        <i class="portifolio-secao__texto-escondido texto-cor--primaria">ART</i>
+       </div>
       </span>
 
      </li>
 
-     <li class="options__icone">
+     <li class="icone-tamanho--medio cor--background">
       <span class="fa-stack fa-2x">
+       <i class="fa-solid fa-circle fa-stack-2x"></i>
        <i class="fa-solid fa-camera fa-stack-1x fa-inverse"></i>
+
+       <div class="item-escondido">
+        <i class="portifolio-secao__texto-escondido texto-cor--primaria">FILM</i>
+       </div>
       </span>
 
      </li>
@@ -183,15 +263,17 @@
    </div>
 
    <div class="portifolio-secao__imgs">
-    <img src="/MiguelSite/images/portfolio-website-1.jpg" alt="oxi">
-    <img src="/MiguelSite/images/portfolio-website-2.jpg" alt="">
-    <img src="/MiguelSite/images/portfolio-website-3.jpg" alt="">
-    <img src="/MiguelSite/images/portfolio-website-4.jpg" alt="">
-    <img src="/MiguelSite/images/portfolio-website-6.jpg" alt="">
-    <img src="/MiguelSite/images/portfolio-website-7.jpg" alt="">
+    <img src="/MiguelSite/images/portfolio-website-1.jpg" alt="website-1">
+    <img src="/MiguelSite/images/portfolio-website-2.jpg" alt="website-2">
+    <img src="/MiguelSite/images/portfolio-website-3.jpg" alt="website-3">
+    <img src="/MiguelSite/images/portfolio-website-4.jpg" alt="website-4">
+    <img src="/MiguelSite/images/portfolio-website-6.jpg" alt="website-6">
+    <img src="/MiguelSite/images/portfolio-website-7.jpg" alt="website-7">
    </div>
 
-   <button class="portifolio-secao__botao botao-tema--primario">Mais</button>
+   <a href="https://miguelluizdape.github.io/MeuSite/" target="_blank">
+    <button class="portifolio-secao__botao botao-tema--primario">MAIS</button>
+   </a>
 
   </div>
 
@@ -200,12 +282,12 @@
 
  <section class="skill-secao">
   <div class="skill-secao__container">
-   <h2 class="titulo">| SKILLS</h2>
+   <h2 id="skills" class="titulo">| SKILLS</h2>
    <div class="skill-secao__skills texto-cor--primaria">
 
-    <div class="skill-secao__item item-tamanho--medio">
-     <h3>VS Code</h3>
-     <img src="/MiguelSite/images/vscode.png" alt="putz">
+    <div class="skill-secao__item lista-item-tamanho--medio">
+     <i>VS Code</i>
+     <img class="filtro--preto-branco" src="/MiguelSite/images/vscode.png" alt="VS Code">
 
      <div class="skill-secao__item-stars">
       <span class="fa-stack fa-1x star">
@@ -232,9 +314,9 @@
 
     </div>
 
-    <div class="skill-secao__item item-tamanho--medio">
-     <h3>.NET Core</h3>
-     <img src="/MiguelSite/images/netcore.png" alt="putz">
+    <div class="skill-secao__item lista-item-tamanho--medio">
+     <i>.NET Core</i>
+     <img class="filtro--preto-branco" src="/MiguelSite/images/netcore.png" alt=".NET Core">
 
      <div class="skill-secao__item-stars">
       <span class="fa-stack fa-1x star">
@@ -257,9 +339,9 @@
 
     </div>
 
-    <div class="skill-secao__item item-tamanho--medio">
-     <h3>PostgreSQL</h3>
-     <img src="/MiguelSite/images/postgresql.png" alt="putz">
+    <div class="skill-secao__item lista-item-tamanho--medio">
+     <i>PostgreSQL</i>
+     <img class="filtro--preto-branco" src="/MiguelSite/images/postgresql.png" alt="PostgreSQL">
 
      <div class="skill-secao__item-stars">
       <span class="fa-stack fa-1x star">
@@ -282,9 +364,9 @@
 
     </div>
 
-    <div class="skill-secao__item item-tamanho--medio">
-     <h3>C#</h3>
-     <img src="/MiguelSite/images/csharp.png" alt="putz">
+    <div class="skill-secao__item lista-item-tamanho--medio">
+     <i>C#</i>
+     <img class="filtro--preto-branco" src="/MiguelSite/images/csharp.png" alt="C">
 
      <div class="skill-secao__item-stars">
       <span class="fa-stack fa-1x star">
@@ -307,9 +389,9 @@
 
     </div>
 
-    <div class="skill-secao__item item-tamanho--medio">
-     <h3>GIT</h3>
-     <img src="/MiguelSite/images/git.png" alt="putz">
+    <div class="skill-secao__item lista-item-tamanho--medio">
+     <i>GIT</i>
+     <img class="filtro--preto-branco" src="/MiguelSite/images/git.png" alt="GIT">
 
      <div class="skill-secao__item-stars">
       <span class="fa-stack fa-1x star">
@@ -328,9 +410,9 @@
 
     </div>
 
-    <div class="skill-secao__item item-tamanho--medio">
-     <h3>JavaScript</h3>
-     <img src="/MiguelSite/images/javascript.png" alt="putz">
+    <div class="skill-secao__item lista-item-tamanho--medio">
+     <i>JavaScript</i>
+     <img class="filtro--preto-branco" src="/MiguelSite/images/javascript.png" alt="JavaScript">
 
      <div class="skill-secao__item-stars">
       <span class="fa-stack fa-1x star">
@@ -349,9 +431,9 @@
 
     </div>
 
-    <div class="skill-secao__item item-tamanho--medio">
-     <h3>Ubuntu</h3>
-     <img src="/MiguelSite/images/ubuntu.png" alt="putz">
+    <div class="skill-secao__item lista-item-tamanho--medio">
+     <i>Ubuntu</i>
+     <img class="filtro--preto-branco" src="/MiguelSite/images/ubuntu.png" alt="Ubuntu">
 
      <div class="skill-secao__item-stars">
       <span class="fa-stack fa-1x star">
@@ -370,30 +452,9 @@
 
     </div>
 
-    <div class="skill-secao__item item-tamanho--medio">
-     <h3>HTML</h3>
-     <img src="/MiguelSite/images/html.png" alt="putz">
-
-     <div class="skill-secao__item-stars">
-      <span class="fa-stack fa-1x star">
-       <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-      </span>
-
-      <span class="fa-stack fa-1x star">
-       <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
-      </span>
-
-      <span class="fa-stack fa-1x star">
-       <i class="fa-solid fa-star-half fa-stack-1x fa-inverse"></i>
-      </span>
-
-     </div>
-
-    </div>
-
-    <div class="skill-secao__item item-tamanho--medio">
-     <h3>Nginx</h3>
-     <img src="/MiguelSite/images/nginx.png" alt="putz">
+    <div class="skill-secao__item lista-item-tamanho--medio">
+     <i>HTML</i>
+     <img class="filtro--preto-branco" src="/MiguelSite/images/html.png" alt="HTML">
 
      <div class="skill-secao__item-stars">
       <span class="fa-stack fa-1x star">
@@ -412,9 +473,30 @@
 
     </div>
 
-    <div class="skill-secao__item item-tamanho--medio">
-     <h3>CSS</h3>
-     <img src="/MiguelSite/images/css.png" alt="putz">
+    <div class="skill-secao__item lista-item-tamanho--medio">
+     <i>Nginx</i>
+     <img class="filtro--preto-branco" src="/MiguelSite/images/nginx.png" alt="Nginx">
+
+     <div class="skill-secao__item-stars">
+      <span class="fa-stack fa-1x star">
+       <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+      </span>
+
+      <span class="fa-stack fa-1x star">
+       <i class="fa-solid fa-star fa-stack-1x fa-inverse"></i>
+      </span>
+
+      <span class="fa-stack fa-1x star">
+       <i class="fa-solid fa-star-half fa-stack-1x fa-inverse"></i>
+      </span>
+
+     </div>
+
+    </div>
+
+    <div class="skill-secao__item lista-item-tamanho--medio">
+     <i>CSS</i>
+     <img class="filtro--preto-branco" src="/MiguelSite/images/css.png" alt="CSS">
 
      <div class="skill-secao__item-stars">
       <span class="fa-stack fa-1x star">
@@ -429,9 +511,9 @@
 
     </div>
 
-    <div class="skill-secao__item item-tamanho--medio">
-     <h3>Figma</h3>
-     <img src="/MiguelSite/images/figma.png" alt="putz">
+    <div class="skill-secao__item lista-item-tamanho--medio">
+     <i>Figma</i>
+     <img class="filtro--preto-branco" src="/MiguelSite/images/figma.png" alt="Figma">
 
      <div class="skill-secao__item-stars">
       <span class="fa-stack fa-1x star">
@@ -446,9 +528,9 @@
 
     </div>
 
-    <div class="skill-secao__item item-tamanho--medio">
-     <h3>Webpack</h3>
-     <img src="/MiguelSite/images/webpack.png" alt="putz">
+    <div class="skill-secao__item lista-item-tamanho--medio">
+     <i>Webpack</i>
+     <img class="filtro--preto-branco" src="/MiguelSite/images/webpack.png" alt="Webpack">
 
      <div class="skill-secao__item-stars">
       <span class="fa-stack fa-1x star">
@@ -463,9 +545,9 @@
 
     </div>
 
-    <div class="skill-secao__item item-tamanho--medio">
-     <h3>AWS</h3>
-     <img src="/MiguelSite/images/aws.png" alt="putz">
+    <div class="skill-secao__item lista-item-tamanho--medio">
+     <i>AWS</i>
+     <img class="filtro--preto-branco" src="/MiguelSite/images/aws.png" alt="AWS">
 
      <div class="skill-secao__item-stars">
       <span class="fa-stack fa-1x star">
@@ -476,9 +558,9 @@
 
     </div>
 
-    <div class="skill-secao__item item-tamanho--medio">
-     <h3>React</h3>
-     <img src="/MiguelSite/images/react.png" alt="putz">
+    <div class="skill-secao__item lista-item-tamanho--medio">
+     <i>React</i>
+     <img class="filtro--preto-branco" src="/MiguelSite/images/react.png" alt="React">
 
      <div class="skill-secao__item-stars">
       <span class="fa-stack fa-1x star">
@@ -489,9 +571,9 @@
 
     </div>
 
-    <div class="skill-secao__item item-tamanho--medio">
-     <h3>TypeScript</h3>
-     <img src="/MiguelSite/images/ts.png" alt="putz">
+    <div class="skill-secao__item lista-item-tamanho--medio">
+     <i>TypeScript</i>
+     <img class="filtro--preto-branco" src="/MiguelSite/images/ts.png" alt="TypeScript">
 
      <div class="skill-secao__item-stars">
       <span class="fa-stack fa-1x star">
@@ -502,9 +584,9 @@
 
     </div>
 
-    <div class="skill-secao__item item-tamanho--medio">
-     <h3>Photoshop</h3>
-     <img src="/MiguelSite/images/photoshop.png" alt="putz">
+    <div class="skill-secao__item lista-item-tamanho--medio">
+     <i>Photoshop</i>
+     <img class="filtro--preto-branco" src="/MiguelSite/images/photoshop.png" alt="Photoshop">
 
      <div class="skill-secao__item-stars">
       <span class="fa-stack fa-1x star">
@@ -523,61 +605,61 @@
 
  <section class="experiencia-secao">
   <div class="experiencia-secao__container">
-   <h2 class="titulo">| EXPERIÊNCIA</h2>
-   <div class="coisa">
+   <h2 id="experiencia" class="titulo">| EXPERIÊNCIA</h2>
+   <div class="experiencia-secao__container-secundário">
     <div>
      <ul>
-      <li class="experiencia-secao__item-texto">
-       <div class="item__data">
-        <span class="fa-stack fa-1x ">
-         <i class="fa-solid fa-calendar-days fa-stack-1x icone-cor--secundaria"></i>
+      <li class="margin-lista">
+       <div class="item__icone-data">
+        <span class="fa-stack fa-1x icone-margin--pequena">
+         <i class="fa-solid fa-calendar-days icone-cor--secundaria"></i>
         </span>
         <div class="subtitulo-tamanho--pequeno texto-cor--primaria">2012 - 2014</div>
        </div>
-       <h3 class="subtitulo-tamanho--medio texto-cor--primaria bold">GOOGLE</h3>
-       <p class="subtitulo-tamanho--pequeno texto-cor--primaria">
+       <i class="subtitulo-tamanho--medio texto-cor--primaria bold">GOOGLE</i>
+       <p class="texto-tamanho--medio-pequeno texto-cor--primaria">
         Estágio na Google atuando na equipe de desenvolvimento de ferramentas para o ADS.
        </p>
 
       </li>
 
-      <li class="experiencia-secao__item-texto">
-       <div class="item__data">
-        <span class="fa-stack fa-1x ">
-         <i class="fa-solid fa-calendar-days fa-stack-1x icone-cor--secundaria"></i>
+      <li class="margin-lista">
+       <div class="item__icone-data">
+        <span class="fa-stack fa-1x icone-margin--pequena">
+         <i class="fa-solid fa-calendar-days icone-cor--secundaria"></i>
         </span>
         <span class="subtitulo-tamanho--pequeno texto-cor--primaria">2014 - 2018</span>
        </div>
-       <h3 class="subtitulo-tamanho--medio texto-cor--primaria bold">BOOKING</h3>
-       <p class="subtitulo-tamanho--pequeno texto-cor--primaria">
+       <i class="subtitulo-tamanho--medio texto-cor--primaria bold">BOOKING</i>
+       <p class="texto-tamanho--medio-pequeno texto-cor--primaria">
         Cargo de desenvolvedor junior na equipe de desenvolvimento back end.
        </p>
 
       </li>
 
-      <li class="experiencia-secao__item-texto">
-       <div class="item__data">
-        <span class="fa-stack fa-1x ">
-         <i class="fa-solid fa-calendar-days fa-stack-1x icone-cor--secundaria"></i>
+      <li class="margin-lista">
+       <div class="item__icone-data">
+        <span class="fa-stack fa-1x icone-margin--pequena">
+         <i class="fa-solid fa-calendar-days icone-cor--secundaria"></i>
         </span>
         <span class="subtitulo-tamanho--pequeno texto-cor--primaria">2018 - 2021</span>
        </div>
-       <h3 class="subtitulo-tamanho--medio texto-cor--primaria bold">FACEBOOK</h3>
-       <p class="subtitulo-tamanho--pequeno texto-cor--primaria">
+       <i class="subtitulo-tamanho--medio texto-cor--primaria bold">FACEBOOK</i>
+       <p class="texto-tamanho--medio-pequeno texto-cor--primaria">
         Cargo de desenvolvedor pleno na equipe de criação da biblioteca React.
        </p>
 
       </li>
 
-      <li class="experiencia-secao__item-texto">
-       <div class="item__data">
-        <span class="fa-stack fa-1x">
-         <i class="fa-solid fa-calendar-days fa-stack-1x icone-cor--secundaria"></i>
+      <li class="margin-lista">
+       <div class="item__icone-data">
+        <span class="fa-stack fa-1x icone-margin--pequena">
+         <i class="fa-solid fa-calendar-days icone-cor--secundaria"></i>
         </span>
-        <span class="subtitulo-tamanho--pequeno texto-cor--primaria">2021 - Trabalhando</span>
+        <span class="subtitulo-tamanho--pequeno texto-cor--primaria">2021 - TRABALHANDO</span>
        </div>
-       <h3 class="subtitulo-tamanho--medio texto-cor--primaria bold">TWITTER</h3>
-       <p class="subtitulo-tamanho--pequeno texto-cor--primaria">
+       <i class="subtitulo-tamanho--medio texto-cor--primaria bold">TWITTER</i>
+       <p class="texto-tamanho--medio-pequeno texto-cor--primaria">
         Cargo de desenvolvedor sênior na equipe de criação do aplicativo X.
        </p>
 
@@ -585,7 +667,10 @@
 
      </ul>
 
-     <button class="botao-tema--primario">MAIS</button>
+     <a href="https://miguelluizdape.github.io/MeuSite/" target="_blank">
+      <button class="botao-tema--primario">MAIS</button>
+     </a>
+
 
     </div>
 
@@ -622,9 +707,6 @@
 
      </div>
 
-
-
-
     </div>
 
    </div>
@@ -633,118 +715,303 @@
 
  </section>
 
+ <section class="educacao-secao">
+  <div class="educacao-secao__container">
+   <h2 id="educacao" class="titulo">| EDUCAÇÃO</h2>
+   <div class="educacao-secao__container-secundario">
+    <div>
+     <h3
+      class="educacao-secao__subtitulo texto-alinhamento--centro texto-tamanho--medio-pequeno texto-cor--secundaria background-cor--secundaria">
+      BACHARELADO E PÓS-GRADUAÇÃO</h3>
+     <ul>
+      <li class="margin-lista">
+       <div class="item__icone-data">
+        <span class="fa-stack fa-1x icone-margin--pequena">
+         <i class="fa-solid fa-calendar-days icone-cor--secundaria"></i>
+        </span>
+        <span class="subtitulo-tamanho--pequeno texto-cor--primaria">2012 - 2016</span>
+       </div>
+       <i class="subtitulo-tamanho--medio texto-cor--primaria bold">CIÊNCIA DA COMPUTAÇÃO</i>
+       <p class="texto-tamanho--medio-pequeno texto-cor--primaria">
+        Bracharelado em Ciência da Computação pela Univali
+       </p>
+
+      </li>
+
+      <li class="margin-lista">
+       <div class="item__icone-data">
+        <span class="fa-stack fa-1x icone-margin--pequena">
+         <i class="fa-solid fa-calendar-days  icone-cor--secundaria"></i>
+        </span>
+        <span class="subtitulo-tamanho--pequeno texto-cor--primaria">2012 - 2016</span>
+       </div>
+       <i class="subtitulo-tamanho--medio texto-cor--primaria bold">BIG DATA</i>
+       <p class="texto-tamanho--medio-pequeno texto-cor--primaria">
+        Pós graduado em Big Data pela UFSC
+       </p>
+
+      </li>
+
+      <li class="margin-lista">
+       <div class="item__icone-data">
+        <span class="fa-stack fa-1x icone-margin--pequena">
+         <i class="fa-solid fa-calendar-days icone-cor--secundaria"></i>
+        </span>
+        <span class="subtitulo-tamanho--pequeno texto-cor--primaria">2012 - 2016</span>
+       </div>
+       <i class="subtitulo-tamanho--medio texto-cor--primaria bold">COMPUTAÇÃO APLICADA</i>
+       <p class="texto-tamanho--medio-pequeno texto-cor--primaria">
+        Mestrado em Computação Aplicada pela UFSP
+       </p>
+
+      </li>
+
+     </ul>
+
+    </div>
+
+    <div>
+     <h3
+      class="educacao-secao__subtitulo texto-alinhamento--centro texto-tamanho--medio-pequeno texto-cor--secundaria background-cor--secundaria">
+      CURSO DE ESPECIALIZAÇÃO</h3>
+     <ul>
+      <li class="margin-lista">
+       <div class="item__icone-data">
+        <span class="fa-stack fa-1x icone-margin--pequena">
+         <i class="fa-solid fa-calendar-days icone-cor--secundaria"></i>
+        </span>
+        <span class="subtitulo-tamanho--pequeno texto-cor--primaria">2019 - 2020</span>
+       </div>
+       <i class="subtitulo-tamanho--medio texto-cor--primaria bold">FRONTEND</i>
+       <p class="texto-tamanho--medio-pequeno texto-cor--primaria">
+        Curso de formação FrontEnd ministrado por Jackson Camara. Total de 500 horas concluídas.
+       </p>
+
+      </li>
+
+      <li class="margin-lista">
+       <div class="item__icone-data">
+        <span class="fa-stack fa-1x icone-margin--pequena">
+         <i class="fa-solid fa-calendar-days icone-cor--secundaria"></i>
+        </span>
+        <span class="subtitulo-tamanho--pequeno texto-cor--primaria">2021 - 2022</span>
+       </div>
+       <i class="subtitulo-tamanho--medio texto-cor--primaria bold">BACKEND</i>
+       <p class="texto-tamanho--medio-pequeno texto-cor--primaria">
+        Curso de formação BackEnd ministrado por Jackson Camara. Total de 500 horas concluídas.
+       </p>
+
+      </li>
+
+      <li class="margin-lista">
+       <div class="item__icone-data">
+        <span class="fa-stack fa-1x icone-margin--pequena">
+         <i class="fa-solid fa-calendar-days icone-cor--secundaria"></i>
+        </span>
+        <span class="subtitulo-tamanho--pequeno texto-cor--primaria">2023 - ANDAMENTO</span>
+       </div>
+       <i class="subtitulo-tamanho--medio texto-cor--primaria bold">FULLSTACK</i>
+       <p class="texto-tamanho--medio-pequeno texto-cor--primaria">
+        Curso de formação FullStack ministrado por Jackson Camara. Total de 500 horas concluídas.
+       </p>
+
+      </li>
+
+     </ul>
+
+    </div>
+
+    <div>
+     <h3
+      class="educacao-secao__subtitulo texto-alinhamento--centro texto-tamanho--medio-pequeno texto-cor--secundaria background-cor--secundaria">
+      CURSO DE ESPECIALIZAÇÃO</h3>
+     <ul>
+      <li class="margin-lista">
+       <div class="item__icone-data">
+        <span class="fa-stack fa-1x icone-margin--pequena">
+         <i class="fa-solid fa-calendar-days icone-cor--secundaria"></i>
+        </span>
+        <span class="subtitulo-tamanho--pequeno texto-cor--primaria">2017 - 2019</span>
+       </div>
+       <i class="subtitulo-tamanho--medio texto-cor--primaria bold">INGLÊS</i>
+       <p class="texto-tamanho--medio-pequeno texto-cor--primaria">
+        Curso de Inglês na Univali Idiomas. Níveis a1, a2, b1
+       </p>
+
+      </li>
+
+      <li class="margin-lista">
+       <div class="item__icone-data">
+        <span class="fa-stack fa-1x icone-margin--pequena">
+         <i class="fa-solid fa-calendar-days icone-cor--secundaria"></i>
+        </span>
+        <span class="subtitulo-tamanho--pequeno texto-cor--primaria">2020 - 2021</span>
+       </div>
+       <i class="subtitulo-tamanho--medio texto-cor--primaria bold">INGLÊS</i>
+       <p class="texto-tamanho--medio-pequeno texto-cor--primaria">
+        Curso de Inglês na Wizard. Níveis b2, c1
+       </p>
+
+      </li>
+
+      <li class="margin-lista">
+       <div class="item__icone-data">
+        <span class="fa-stack fa-1x icone-margin--pequena">
+         <i class="fa-solid fa-calendar-days icone-cor--secundaria"></i>
+        </span>
+        <span class="subtitulo-tamanho--pequeno texto-cor--primaria">2021 - ANDAMENTO</span>
+       </div>
+       <i class="subtitulo-tamanho--medio texto-cor--primaria bold">INGLÊS</i>
+       <p class="texto-tamanho--medio-pequeno texto-cor--primaria">
+        Curso de Inglês particular. Nível c2
+       </p>
+
+      </li>
+
+     </ul>
+
+    </div>
+
+
+   </div>
+   <div class="educacao-secao__botao-container">
+    <a href="https://miguelluizdape.github.io/MeuSite/" target="_blank">
+     <button class="botao botao-tema--primario">MAIS</button>
+    </a>
+
+   </div>
+
+  </div>
+
+
+ </section>
 
  <section class="contato-secao">
   <div class="contato-secao__container">
-   <h2 class="titulo">| CONTATO</h2>
+   <h2 id="contato" class="titulo">| CONTATO</h2>
 
    <div class="contato-secao__container-secundario">
     <div class="contato-secao__informacoes">
      <ul>
-      <li class="contato__item item-tamanho--medio">
-       <span class="fa-stack fa-2x item__icone">
+      <li class="contato__item lista-item-tamanho--medio">
+       <span class="fa-stack fa-2x ">
         <i class="fa-solid fa-square fa-stack-2x icone-cor--secundaria"></i>
         <i class="fa-regular fa-envelope fa-stack-1x"></i>
        </span>
 
        <div class="item__social subtitulo-tamanho--pequeno texto-cor--primaria">
         <span>EMAIL</span>
-        <span class="bold">miguel.luiz.work@gmail.com</span>
+        <span class="texto-tamanho--medio-pequeno bold">miguel.luiz.work@gmail.com</span>
        </div>
 
       </li>
 
-      <li class="contato__item item-tamanho--medio">
-       <span class="fa-stack fa-2x item__icone">
+      <li class="contato__item lista-item-tamanho--medio">
+       <span class="fa-stack fa-2x ">
         <i class="fa-solid fa-square fa-stack-2x icone-cor--secundaria"></i>
         <i class="fa-solid fa-phone fa-stack-1x"></i>
        </span>
 
        <div class="item__social subtitulo-tamanho--pequeno texto-cor--primaria">
         <span>TELEFONE</span>
-        <span class="bold">(47) 9 1234 1543</span>
+        <span class="texto-tamanho--medio-pequeno bold">(47) 9 1234 1543</span>
        </div>
 
       </li>
 
-      <li class="contato__item item-tamanho--medio">
-       <span class="fa-stack fa-2x item__icone">
-        <i class="fa-solid fa-square fa-stack-2x icone-cor--secundaria"></i>
-        <i class="fa-brands fa-whatsapp fa-stack-1x"></i>
+      <li class="contato__item lista-item-tamanho--medio">
+
+       <span class="fa-stack fa-2x ">
+        <a href="https://wa.me/5547988753140" target="_blank">
+         <i class="fa-solid fa-square fa-stack-2x icone-cor--secundaria"></i>
+         <i class="fa-brands fa-whatsapp fa-stack-1x"></i>
+        </a>
        </span>
 
        <div class="item__social subtitulo-tamanho--pequeno texto-cor--primaria">
         <span>WHATSAPP</span>
-        <span class="bold">(47) 9 1234 1543</span>
+        <span class="texto-tamanho--medio-pequeno bold">(47) 9 1234 1543</span>
        </div>
 
       </li>
 
-      <li class="contato__item item-tamanho--medio">
-       <span class="fa-stack fa-2x item__icone">
+      <li class="contato__item lista-item-tamanho--medio">
+       <span class="fa-stack fa-2x ">
         <i class="fa-solid fa-square fa-stack-2x icone-cor--secundaria"></i>
         <i class="fa-brands fa-telegram fa-stack-1x"></i>
        </span>
 
        <div class="item__social subtitulo-tamanho--pequeno texto-cor--primaria">
         <span>TELEGRAM</span>
-        <span class="bold">(47) 9 1234 1543</span>
+        <span class="texto-tamanho--medio-pequeno bold">(47) 9 1234 1543</span>
        </div>
 
       </li>
 
-      <li class="contato__item item-tamanho--medio">
-       <span class="fa-stack fa-2x item__icone">
+      <li class="contato__item lista-item-tamanho--medio">
+       <span class="fa-stack fa-2x ">
         <i class="fa-solid fa-square fa-stack-2x icone-cor--secundaria"></i>
         <i class="fa-brands fa-skype fa-stack-1x"></i>
        </span>
 
        <div class="item__social subtitulo-tamanho--pequeno texto-cor--primaria">
         <span>SKYPE</span>
-        <span class="bold">myskype</span>
+        <span class="texto-tamanho--medio-pequeno bold">myskype</span>
        </div>
       </li>
 
      </ul>
 
      <ul class="redes-sociais">
-      <li class="options__icone">
-       <span class="fa-stack fa-2x">
-        <i class="fa-solid fa-circle fa-stack-2x icone-cor--primaria"></i>
-        <i class="fa-brands fa-linkedin fa-stack-1x fa-inverse"></i>
-       </span>
+      <li class="icone-tamanho--pequeno">
+       <a href="https://www.linkedin.com/in/miguel-luiz-4a9236268/" target="_blank">
+        <span class="fa-stack fa-2x">
+         <i class="fa-solid fa-circle fa-stack-2x icone-cor--primaria"></i>
+         <i class="fa-brands fa-linkedin fa-stack-1x fa-inverse"></i>
+        </span>
+       </a>
 
       </li>
 
-      <li class="options__icone">
-       <span class="fa-stack fa-2x">
-        <i class="fa-solid fa-circle fa-stack-2x icone-cor--primaria"></i>
-        <i class="fa-brands fa-twitter fa-stack-1x fa-inverse"></i>
-       </span>
+      <li class="icone-tamanho--pequeno">
+       <a
+        href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D"
+        target="_blank">
+        <span class="fa-stack fa-2x">
+         <i class="fa-solid fa-circle fa-stack-2x icone-cor--primaria"></i>
+         <i class="fa-brands fa-twitter fa-stack-1x fa-inverse"></i>
+        </span>
+       </a>
 
       </li>
 
-      <li class="options__icone">
-       <span class="fa-stack fa-2x">
-        <i class="fa-solid fa-circle fa-stack-2x icone-cor--primaria"></i>
-        <i class="fa-brands fa-instagram fa-stack-1x fa-inverse"></i>
-       </span>
+      <li class="icone-tamanho--pequeno">
+       <a href="https://www.instagram.com/" target="_blank">
+        <span class="fa-stack fa-2x">
+         <i class="fa-solid fa-circle fa-stack-2x icone-cor--primaria"></i>
+         <i class="fa-brands fa-instagram fa-stack-1x fa-inverse"></i>
+        </span>
+       </a>
 
       </li>
 
-      <li class="options__icone">
-       <span class="fa-stack fa-2x">
-        <i class="fa-solid fa-circle fa-stack-2x icone-cor--primaria"></i>
-        <i class="fa-brands fa-youtube fa-stack-1x fa-inverse"></i>
-       </span>
+      <li class="icone-tamanho--pequeno">
+       <a href="https://www.youtube.com/@bluwagnercherosin9622" target="_blank">
+        <span class="fa-stack fa-2x">
+         <i class="fa-solid fa-circle fa-stack-2x icone-cor--primaria"></i>
+         <i class="fa-brands fa-youtube fa-stack-1x fa-inverse"></i>
+        </span>
+       </a>
 
       </li>
 
-      <li class="options__icone">
-       <span class="fa-stack fa-2x">
-        <i class="fa-solid fa-circle fa-stack-2x icone-cor--primaria"></i>
-        <i class="fa-brands fa-facebook-f fa-stack-1x fa-inverse"></i>
-       </span>
+      <li class="icone-tamanho--pequeno">
+       <a href="https://pt-br.facebook.com/" target="_blank">
+        <span class="fa-stack fa-2x">
+         <i class="fa-solid fa-circle fa-stack-2x icone-cor--primaria"></i>
+         <i class="fa-brands fa-facebook-f fa-stack-1x fa-inverse"></i>
+        </span>
+       </a>
 
       </li>
 
