@@ -29,7 +29,7 @@
 
 .portifolio-secao__options li:hover .item-escondido {
    color: var(--secundaria);
-   padding-right: clamp(10rem, 10vw, 12rem);
+   padding-right: clamp(9rem, 9vw, 12rem);
    background-color: #F5B63F;
    transition: 1s;
    display: flex;

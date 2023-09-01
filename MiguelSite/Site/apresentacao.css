@@ -18,6 +18,7 @@
 
 .apresentacao-secao__img {
     width: 45vw;
+    margin-bottom: 3vw;
 }
 
 .apresentacao-secao__informacao{
@@ -25,4 +26,16 @@
     justify-content: center;
     flex-direction: column;
     margin-left: 6vw;
+}
+
+@media (max-width: 700px) and (orientation: portrait) {
+    .apresentacao-secao__container{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .apresentacao-secao__img{
+        width: 100%;
+    }
+
 }
