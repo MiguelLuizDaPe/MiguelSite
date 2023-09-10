@@ -24,7 +24,7 @@
     width: 50%;
 }
 
-.contato-secao__formulario input,
+/* .contato-secao__formulario input,
 .contato-secao__formulario textarea {
     border-radius: 10px;
     padding: 1rem;
@@ -34,7 +34,7 @@
     border-width: 0.1rem;
     border-color: var(--azulzinho);
     font-family: 'Roboto', sans-serif;
-}
+} */
 
 .contato-secao__botao {
     display: grid;

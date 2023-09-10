@@ -19,6 +19,10 @@
     flex-wrap: wrap;
 }
 
+.informacoes__subtitulo{
+    margin-bottom: 0.3vw;
+}
+
 .sobre-secao__botao {
     margin-bottom: 2vw;
 }

@@ -12,26 +12,32 @@
 
 }
 
-.portifolio-secao__texto-escondido {
-   margin-left: clamp(4rem, 4vw, 12rem);
+.portifolio-secao__texto-escondido{
+   padding-left: clamp(4rem, 4vw, 12rem);
 }
 
 .portifolio-secao__options {
    display: flex;
    justify-content: flex-end;
+   transition: 1s;
 }
 
-.portifolio-secao__options li:hover {
+.options__botao{
+   background-color: transparent;
    color: var(--secundaria);
-   margin-right: clamp(5rem, 5vw, 7rem);
-   transition: 1s;
+   transition: 0.3s;
+   border-radius: 50px;
+   cursor: pointer;
+}
+
+.portifolio-secao__options .options__botao:hover {
+   padding-right: clamp(5rem, 5vw, 7rem);
+   background-color: var(--secundaria);
+   border-radius: 10px;
 }
 
 .portifolio-secao__options li:hover .item-escondido {
-   color: var(--secundaria);
    padding-right: clamp(9rem, 9vw, 12rem);
-   background-color: #F5B63F;
-   transition: 1s;
    display: flex;
    border-radius: 10px;
 }
@@ -40,24 +46,86 @@
    display: none;
 }
 
-.portifolio-secao__imgs {
+.carrossel{
+   display: flex;
+   align-items: center;
+   position: relative;
+   width: 100%;
+   min-height: 54vh;
+}
+
+.carrossel__img {
+   max-width: 100%;
+   max-height: 100%;
+}
+
+.carrossel__botao{
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   border: 0;
+   padding: 0 0.5vw;
+   cursor: pointer;
+   z-index: 1;
+   height: 100%;
+}
+
+.carrossel__botao--esquerdo{
+ left: 0;
+}
+
+.carrossel__botao--direito{
+ right: 0;
+}
+
+#secao-code{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
-   margin-top: 1vw;
    grid-gap: 2vw;
 }
 
-.portifolio-secao__imgs img {
-   width: 100%;
+#secao-art{
+   display: none;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 2vw;
+}
+
+#secao-film{
+   display: none;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 2vw;
 }
 
 .portifolio-secao__botao {
-   margin-top: 2vw;
+   margin-top: 3vw;
 }
 
 @media (max-width: 700px) and (orientation: portrait) { 
-   .portifolio-secao__imgs{
+   #secao-code{
       grid-template-columns: 1fr;
+      row-gap: 3vw;
+   }
+   #secao-art{
+      grid-template-columns: 1fr;
+      row-gap: 3vw;
+   }
+   #secao-film{
+      grid-template-columns: 1fr;
+      row-gap: 3vw;
+   }
+}
+
+@media (max-width: 900px) and (orientation: landscape) { 
+   #secao-code{
+      grid-template-columns: 1fr 1fr;
+      row-gap: 3vw;
+   }
+   #secao-art{
+      grid-template-columns: 1fr 1fr;
+      row-gap: 3vw;
+   }
+   #secao-film{
+      grid-template-columns: 1fr 1fr;
       row-gap: 3vw;
    }
 }

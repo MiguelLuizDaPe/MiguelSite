@@ -1,45 +1,83 @@
 .navbar {
-    margin-top: 1.5vw;
+    padding: 1vw 0;
     position: fixed;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
+    transition: 0.3s;
+    background-color: transparent;
+
+}
+
+.navbar__fundo{
+    display: inherit;
+    /* background-color: red; */
 }
 
 .navbar__lista {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    width: 80%;
+    position: relative;
+    /* align-items: center; */
+    /* width: 75%; */
+    right: -200%;
+    transition: 0.3s;
+    /* overflow: hidden; */
+}
+
+.navbar__lista .navbar__botao:hover .fa-circle {
+    display: none;
+}
+
+.botao-barra{
+    /* transition: 0.3s; */
+    z-index: 3;
+    margin-right: 10vw;
 }
 
 .navbar__botao {
     display: flex;
     align-content: center;
     font-size: clamp(0.4rem, 0.8vw, 2rem);
+    background-color: transparent;
+    transition: 0.3s;
+    border-radius: 50px;
+    cursor: pointer;
+    /* overflow: visible; */
+}
+
+.test{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .navbar__texto {
-    margin-left: 4vw;
+    /* display: none; */
+    /* background-color: var(--pretinho); */
+    transition: 1s;
 }
 
-.navbar__lista li:hover .item-escondido {
-    color: var(--secundaria);
-    padding-right: clamp(9rem, 10vw, 12rem);
-    background-color: #F5B63F;
-    transition: 1s;
-    display: flex;
+.navbar__lista .navbar__botao:hover .item-escondido{
+    display: inherit;
+    /* justify-self: center; */
+    /* margin-left: 3vw; */
+    width: 100%;
+    /* margin: 1rem; */
+    /* color: var(--secundaria); */
+    /* padding-right: clamp(9rem, 10vw, 12rem); */
+    /* background-color: #F5B63F; */
     border-radius: 10px;
+    padding-left: 3.3vw;
+    /* padding-right: 0.4vw; */
 }
 
-.navbar__lista li:hover .fa-circle {
-    display: none;
-}
-
-.navbar__lista li:hover {
-    color: var(--secundaria);
-    margin-right: 6vw;
-    transition: 1s;
+.navbar__lista .navbar__botao:hover{
     display: flex;
+    color: var(--secundaria);
+    padding-right: 10vw;
+    background-color: var(--secundaria);
+    padding-top: 0.1vw;
+    border-radius: 10px;
+    /* transition: 1s; */
 }

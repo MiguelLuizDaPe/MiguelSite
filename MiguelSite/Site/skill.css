@@ -19,16 +19,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: 0.5s;
+}
+
+.skill-secao__item img{
+    transition: 0.5s;
+}
+
+.skill-secao__item i{
+    transition: 0.5s;
 }
 
 .skill-secao__item:hover img{
     filter: grayscale(0%);
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 
 .skill-secao__item:hover i{
     color: var(--secundaria);
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 
 .skill-secao__item img {

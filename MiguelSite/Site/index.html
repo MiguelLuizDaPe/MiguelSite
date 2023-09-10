@@ -20,6 +20,7 @@
  <link rel="stylesheet" href="contato.css">
  <link rel="stylesheet" href="base.css">
  <script src="https://kit.fontawesome.com/4fc9e75350.js" crossorigin="anonymous"></script>
+ <script defer src="./script.js"></script>
 
 </head>
 
@@ -27,107 +28,115 @@
 
  <header>
   <nav class="navbar">
+   <!-- <div class="navbar__fundo"> -->
+
    <ul class="navbar__lista">
-    <li class="navbar__botao">
-     <span class="fa-stack fa-2x">
-      <a href="#apresentacao">
+
+    <a href="#apresentacao">
+     <li class="navbar__botao">
+      <span class="fa-stack fa-2x">
        <i class="fa-solid fa-circle fa-stack-2x"></i>
 
        <i class="fa-solid fa-house fa-stack-1x fa-inverse"></i>
-       <div class="item-escondido background-cor--secundaria">
-        <i class=" navbar__texto texto-cor--primaria">HOME </i>
+       <div class="item-escondido">
+        <i class=" navbar__texto texto-cor--primaria">HOME</i>
        </div>
-      </a>
-     </span>
 
-    </li>
-    <li class="navbar__botao">
-     <span class="fa-stack fa-2x">
-      <i class="fa-solid fa-circle fa-stack-2x"></i>
+      </span>
 
-      <a href="#sobre">
+     </li>
+    </a>
+
+    <a href="#sobre">
+     <li class="navbar__botao">
+      <span class="fa-stack fa-2x">
+       <i class="fa-solid fa-circle fa-stack-2x"></i>
+
        <i class="fa-solid fa-user fa-stack-1x fa-inverse"></i>
        <div class="item-escondido">
-        <i class=" navbar__texto texto-cor--primaria">ABOUT </i>
+        <i class=" navbar__texto texto-cor--primaria">ABOUT</i>
        </div>
-      </a>
-     </span>
+      </span>
 
-    </li>
-    <li class="navbar__botao">
-     <span class="fa-stack fa-2x">
-      <i class="fa-solid fa-circle fa-stack-2x"></i>
+     </li>
+    </a>
+    <a href="#portifolio">
+     <li class="navbar__botao">
+      <span class="fa-stack fa-2x">
+       <i class="fa-solid fa-circle fa-stack-2x"></i>
 
-      <a href="#portifolio">
        <i class="fa-solid fa-toolbox fa-stack-1x fa-inverse"></i>
        <div class="item-escondido">
-        <i class=" navbar__texto texto-cor--primaria">PORTF </i>
+        <i class=" navbar__texto texto-cor--primaria">PORTFOLIO</i>
        </div>
-      </a>
-     </span>
+      </span>
 
-    </li>
-    <li class="navbar__botao">
-     <span class="fa-stack fa-2x">
-      <i class="fa-solid fa-circle fa-stack-2x"></i>
+     </li>
+    </a>
+    <a href="#skills">
+     <li class="navbar__botao">
+      <span class="fa-stack fa-2x">
+       <i class="fa-solid fa-circle fa-stack-2x"></i>
 
-      <a href="#skills">
        <i class="fa-solid fa-brain fa-stack-1x fa-inverse"></i>
        <div class="item-escondido">
-        <i class=" navbar__texto texto-cor--primaria">SKILLS </i>
+        <i class=" navbar__texto texto-cor--primaria">SKILLS</i>
        </div>
-      </a>
-     </span>
+      </span>
 
-    </li>
-    <li class="navbar__botao">
-     <span class="fa-stack fa-2x">
-      <i class="fa-solid fa-circle fa-stack-2x"></i>
+     </li>
+    </a>
+    <a href="#experiencia">
+     <li class="navbar__botao">
+      <span class="fa-stack fa-2x">
+       <i class="fa-solid fa-circle fa-stack-2x"></i>
 
-      <a href="#experiencia">
        <i class="fa-solid fa-user-tie fa-stack-1x fa-inverse"></i>
        <div class="item-escondido">
-        <i class=" navbar__texto texto-cor--primaria">EXP </i>
+        <i class=" navbar__texto texto-cor--primaria">EXPERIENCIA</i>
        </div>
-      </a>
-     </span>
+      </span>
 
-    </li>
-    <li class="navbar__botao">
-     <span class="fa-stack fa-2x">
-      <i class="fa-solid fa-circle fa-stack-2x"></i>
+     </li>
+    </a>
+    <a href="#educacao">
+     <li class="navbar__botao">
+      <span class="fa-stack fa-2x">
+       <i class="fa-solid fa-circle fa-stack-2x"></i>
 
-      <a href="#educacao">
        <i class="fa-solid fa-user-graduate fa-stack-1x fa-inverse"></i>
        <div class="item-escondido">
-        <i class=" navbar__texto texto-cor--primaria">EDU </i>
+        <i class=" navbar__texto texto-cor--primaria">EDUCAÇÃO</i>
        </div>
-      </a>
-     </span>
+      </span>
 
-    </li>
-    <li class="navbar__botao">
-     <span class="fa-stack fa-2x">
-      <i class="fa-solid fa-circle fa-stack-2x"></i>
+     </li>
+    </a>
+    <a href="#contato">
+     <li class="navbar__botao">
+      <span class="fa-stack fa-2x">
+       <i class="fa-solid fa-circle fa-stack-2x"></i>
 
-      <a href="#contato">
        <i class="fa-solid fa-envelope fa-stack-1x fa-inverse"></i>
        <div class="item-escondido">
-        <i class=" navbar__texto texto-cor--primaria">CONT </i>
+        <i class=" navbar__texto texto-cor--primaria">CONTATOS</i>
        </div>
-      </a>
-     </span>
+      </span>
 
-    </li>
-    <div class="navbar__botao">
-     <span class="fa-stack fa-2x">
-      <!-- <i class="fa-solid fa-circle fa-stack-2x"></i> -->
-      <i class="fa-solid fa-bars fa-stack-2x fa-inverse"></i>
-     </span>
-
-    </div>
+     </li>
+    </a>
 
    </ul>
+
+   <div class="navbar__botao botao-barra">
+    <span class="fa-stack fa-2x">
+     <!-- <i class="fa-solid fa-circle fa-stack-2x"></i> -->
+     <i class="fa-solid fa-bars fa-stack-2x fa-inverse"></i>
+    </span>
+
+   </div>
+   <!-- </div> -->
+
 
   </nav>
 
@@ -181,33 +190,33 @@
     <div>
      <ul>
       <li>
-       <div class="subtitulo-tamanho--pequeno">NOME</div>
+       <div class="informacoes__subtitulo subtitulo-tamanho--pequeno thin">NOME</div>
        <div class="margin-lista texto-tamanho--medio">MIGUEL LUIZ</div>
       </li>
 
       <li>
-       <div class="subtitulo-tamanho--pequeno">IDADE</div>
+       <div class="informacoes__subtitulo subtitulo-tamanho--pequeno thin">IDADE</div>
        <div class="margin-lista texto-tamanho--medio">20 ANOS</div>
       </li>
 
       <li>
-       <div class="subtitulo-tamanho--pequeno">PROFISSÃO</div>
+       <div class="informacoes__subtitulo subtitulo-tamanho--pequeno thin">PROFISSÃO</div>
        <div class="margin-lista texto-tamanho--medio">ESTUDANTE</div>
       </li>
 
       <li>
-       <div class="subtitulo-tamanho--pequeno">NATURALIDADE</div>
+       <div class="informacoes__subtitulo subtitulo-tamanho--pequeno thin">NATURALIDADE</div>
        <div class="margin-lista texto-tamanho--medio">ITAJAÍ/SC</div>
       </li>
 
       <li>
-       <div class="subtitulo-tamanho--pequeno">NACIONALIDADE</div>
+       <div class="informacoes__subtitulo subtitulo-tamanho--pequeno thin">NACIONALIDADE</div>
        <div class="margin-lista texto-tamanho--medio">BRASILEIRO</div>
       </li>
 
       <li>
-       <div class="subtitulo-tamanho--pequeno">GITHUB</div>
-       <div class="margin-lista texto-tamanho--medio">www.github.com/miguelluizdape</div>
+       <div class="informacoes__subtitulo subtitulo-tamanho--pequeno thin">GITHUB</div>
+       <div class="margin-lista texto-tamanho--medio">WWW.GITHUB.COM/MIGUELLUIZDAPE</div>
       </li>
 
      </ul>
@@ -239,9 +248,9 @@
 
    <div>
     <ul class="portifolio-secao__options">
-     <li class="icone-tamanho--pequeno cor--background">
+
+     <li id="botao-code" class="options__botao icone-tamanho--pequeno cor--background">
       <span class="fa-stack fa-2x">
-       <i class="fa-solid fa-circle fa-stack-2x"></i>
        <i class="fa-solid fa-code fa-stack-1x fa-inverse"></i>
 
        <div class="item-escondido">
@@ -251,9 +260,8 @@
 
      </li>
 
-     <li class="icone-tamanho--pequeno cor--background">
+     <li id="botao-art" class="options__botao icone-tamanho--pequeno cor--background">
       <span class="fa-stack fa-2x">
-       <i class="fa-solid fa-circle fa-stack-2x"></i>
        <i class="fa-solid fa-palette fa-stack-1x fa-inverse"></i>
 
        <div class="item-escondido">
@@ -263,9 +271,8 @@
 
      </li>
 
-     <li class="icone-tamanho--pequeno cor--background">
+     <li id="botao-film" class="options__botao icone-tamanho--pequeno cor--background">
       <span class="fa-stack fa-2x">
-       <i class="fa-solid fa-circle fa-stack-2x"></i>
        <i class="fa-solid fa-camera fa-stack-1x fa-inverse"></i>
 
        <div class="item-escondido">
@@ -279,18 +286,53 @@
 
    </div>
 
-   <div class="portifolio-secao__imgs">
-    <img src="/MiguelSite/images/portfolio-website-1.jpg" alt="website-1">
-    <img src="/MiguelSite/images/portfolio-website-2.jpg" alt="website-2">
-    <img src="/MiguelSite/images/portfolio-website-3.jpg" alt="website-3">
-    <img src="/MiguelSite/images/portfolio-website-4.jpg" alt="website-4">
-    <img src="/MiguelSite/images/portfolio-website-6.jpg" alt="website-6">
-    <img src="/MiguelSite/images/portfolio-website-7.jpg" alt="website-7">
+   <div class="carrossel">
+
+    <div>
+     <button class="carrossel__botao carrossel__botao--esquerdo botao-tema--secundario">
+      <i class="fa-solid fa-chevron-left fa-inverse"></i>
+     </button>
+
+     <button class="carrossel__botao carrossel__botao--direito botao-tema--secundario">
+      <i class="fa-solid fa-chevron-right fa-inverse"></i>
+     </button>
+    </div>
+
+
+    <div class="carrossel__track-container">
+     <ul class="carrossel__track">
+      <li id="secao-code" class="carrossel__slide">
+       <img class="carrossel__img" src="/MiguelSite/images/portfolio-website-1.jpg" alt="website-1">
+       <img class="carrossel__img" src="/MiguelSite/images/portfolio-website-2.jpg" alt="website-2">
+       <img class="carrossel__img" src="/MiguelSite/images/portfolio-website-3.jpg" alt="website-3">
+       <img class="carrossel__img" src="/MiguelSite/images/portfolio-website-4.jpg" alt="website-4">
+       <img class="carrossel__img" src="/MiguelSite/images/portfolio-website-6.jpg" alt="website-6">
+       <img class="carrossel__img" src="/MiguelSite/images/portfolio-website-7.jpg" alt="website-7">
+      </li>
+
+      <li id="secao-art" class="carrossel__slide">
+       <img class="carrossel__img" src="/MiguelSite/images/portfolio-website-7.jpg" alt="website-7">
+       <img class="carrossel__img" src="/MiguelSite/images/portfolio-website-4.jpg" alt="website-4">
+       <img class="carrossel__img" src="/MiguelSite/images/portfolio-website-6.jpg" alt="website-6">
+      </li>
+
+      <li id="secao-film" class="carrossel__slide">
+       <img class="carrossel__img" src="/MiguelSite/images/portfolio-website-3.jpg" alt="website-3">
+       <img class="carrossel__img" src="/MiguelSite/images/portfolio-website-4.jpg" alt="website-4">
+      </li>
+
+     </ul>
+    </div>
+
    </div>
 
-   <a href="https://miguelluizdape.github.io/MeuSite/" target="_blank">
-    <button class="portifolio-secao__botao botao-tema--primario">MAIS</button>
-   </a>
+   <div>
+    <a href="https://miguelluizdape.github.io/MeuSite/" target="_blank">
+     <button class="portifolio-secao__botao botao-tema--primario">MAIS</button>
+    </a>
+   </div>
+
+
 
   </div>
 
@@ -917,8 +959,8 @@
        </span>
 
        <div class="item__social subtitulo-tamanho--pequeno texto-cor--primaria">
-        <span class="texto-tamanho--medio">EMAIL</span>
-        <span class="texto-tamanho--medio-pequeno bold">miguel.luiz.work@gmail.com</span>
+        <span class="texto-tamanho--medio thin">EMAIL</span>
+        <span class="texto-tamanho--medio bold">miguel.luiz.work@gmail.com</span>
        </div>
 
       </li>
@@ -930,8 +972,8 @@
        </span>
 
        <div class="item__social subtitulo-tamanho--pequeno texto-cor--primaria">
-        <span class="texto-tamanho--medio">TELEFONE</span>
-        <span class="texto-tamanho--medio-pequeno bold">(47) 9 1234 1543</span>
+        <span class="texto-tamanho--medio thin">TELEFONE</span>
+        <span class="texto-tamanho--medio bold">47 9 1234 1543</span>
        </div>
 
       </li>
@@ -946,8 +988,8 @@
        </span>
 
        <div class="item__social subtitulo-tamanho--pequeno texto-cor--primaria">
-        <span class="texto-tamanho--medio">WHATSAPP</span>
-        <span class="texto-tamanho--medio-pequeno bold">(47) 9 1234 1543</span>
+        <span class="texto-tamanho--medio thin">WHATSAPP</span>
+        <span class="texto-tamanho--medio bold">47 9 1234 1543</span>
        </div>
 
       </li>
@@ -959,8 +1001,8 @@
        </span>
 
        <div class="item__social subtitulo-tamanho--pequeno texto-cor--primaria">
-        <span class="texto-tamanho--medio">TELEGRAM</span>
-        <span class="texto-tamanho--medio-pequeno bold">(47) 9 1234 1543</span>
+        <span class="texto-tamanho--medio thin">TELEGRAM</span>
+        <span class="texto-tamanho--medio bold">47 9 1234 1543</span>
        </div>
 
       </li>
@@ -972,8 +1014,8 @@
        </span>
 
        <div class="item__social subtitulo-tamanho--pequeno texto-cor--primaria">
-        <span class="texto-tamanho--medio">SKYPE</span>
-        <span class="texto-tamanho--medio-pequeno bold">myskype</span>
+        <span class="texto-tamanho--medio thin">SKYPE</span>
+        <span class="texto-tamanho--medio bold">myskype</span>
        </div>
       </li>
 
@@ -1036,15 +1078,22 @@
 
     </div>
 
-    <form class="contato-secao__formulario" action="https://formsubmit.co/miguel.luiz.work@gmail.com" method="POST">
-     <input type="text" name="name" required placeholder="NOME">
-     <input type="email" name="email" required placeholder="EMAIL">
-     <input type="tel" id="phone" name="phone" placeholder="TELEFONE" required />
-     <input name="_subject" placeholder="ASSUNTO">
-     <textarea name="message" placeholder="MENSAGEM"></textarea>
-     <input type="hidden" name="_next" value="http://127.0.0.1:5500/MiguelSite/Site/obrigado.html">
+    <iframe name="dummy-frame" id="dummy-frame" style="display: none;"></iframe>
+
+    <form class="contato-secao__formulario" action="https://formsubmit.co/miguel.luiz.work@gmail.com" method="POST"
+     target="dummy-frame">
+     <input id="name-form" class="input-tema--primario" type="text" name="name" placeholder="NOME" required>
+     <input id="email-form" class="input-tema--primario" type="email" name="email" placeholder="EMAIL" required>
+     <input id="phone-form" class="input-tema--primario" type="tel" id="phone" name="phone" placeholder="TELEFONE"
+      pattern="[0-9]{2} [0-9]{5} [0-9]{4}" required />
+     <input id="assunto-form" class="input-tema--primario" name="_subject" placeholder="ASSUNTO" required>
+     <textarea id="msg-form" class="input-tema--primario" name="message" placeholder="MENSAGEM" required></textarea>
+     <input class="input-tema--primario" type="hidden" name="_next"
+      value="http://127.0.0.1:5500/MiguelSite/Site/index.html">
+     <input type="hidden" name="_captcha" value="false">
+
      <div class="contato-secao__botao">
-      <button class="botao botao-tema--primario" type="submit">Enviar</button>
+      <button onclick="snack()" class="botao botao-tema--primario" type="submit">Enviar</button>
      </div>
 
     </form>
@@ -1055,6 +1104,10 @@
 
    </div>
 
+  </div>
+
+  <div id="snackbar__formulario">
+   <p>Email enviado com sucesso</p>
   </div>
 
  </section>

@@ -35,15 +35,31 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.feito__elemento {
+    border-color: #F5B63F;
+    width: 80%;
+   }
+   
+
 .experiencia-secao__container-secundário {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 15vw;
 }
 
-@media (max-width: 700px) and (orientation: portrait) {
+@media (max-width: 1000px) and (orientation: portrait) {
     .experiencia-secao__container-secundário{
         grid-template-columns: 1fr;
         row-gap: 5vw;
+    }
+}
+
+@media (max-width: 1000px) and (orientation: landscape) {
+    .experiencia-secao__container-secundário{
+        grid-template-columns: 1fr;
+        row-gap: 5vw;
+    }
+    .experiencia-secao__feito{
+        padding: 3vw 0 ;
     }
 }
